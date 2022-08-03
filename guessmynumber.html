@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="guessmynumber.css" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="John Doe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div>
+      <div id="top-part">
+        <img id="myImg" src="14.jpg" />
+        <button id="again-btn" class="button" onClick="resetFunction()">
+          Again!
+        </button>
+        <p id="rule" class="text">[Between 1 and 20]</p>
+        <p id="title" class="text">Guess My Number!</p>
+        <div id="question-container"><div id="question-square">?</div></div>
+      </div>
+    </div>
+
+    <div>
+      <div id="bottom-part">
+        <form class="form1" role="search" method="get" action="JScourse.html">
+          <input type="number" placeholder="" id="input-box" maxlength="2" />
+          <button
+            type="button"
+            id="check-btn"
+            class="button"
+            onclick="myFunction()"
+          >
+            Check!
+          </button>
+        </form>
+      </div>
+      <p id="result-check">Start guessing. . .</p>
+      <p id="scores">👾 Life: <span id="score">20</span></p>
+      <p id="highscores">🤖 Score: <span id="highscore">0</span></p>
+    </div>
+    <script src="gmynumber.js"></script>
+  </body>
+</html>

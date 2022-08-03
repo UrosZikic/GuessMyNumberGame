@@ -1,0 +1,131 @@
+#top-part {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 400px;
+  background-color: black;
+  border-bottom: 7px solid white;
+  z-index: 1;
+}
+#again-btn {
+  margin: 10px;
+  margin-left: 40px;
+  padding: 10px 30px;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+}
+#again-btn:active,
+#check-btn:active {
+  opacity: 0.8;
+}
+
+#rule {
+  color: orange;
+  display: inline-block;
+  position: fixed;
+  right: 15px;
+  font-size: 20px;
+}
+
+#title {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 100px;
+  margin-top: 130px;
+}
+
+#question-container {
+  display: flex;
+  justify-content: center;
+}
+
+#question-square {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  z-index: 101;
+  /*position: fixed;
+  left: 1000px;
+  top: 360px; */
+}
+
+/* here the lower part begins */
+#bottom-part {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 407px;
+  background-color: black;
+  z-index: 0;
+}
+#input-box {
+  width: 150px;
+  height: 80px;
+  color: white;
+  background-color: black;
+  border: solid 3px white;
+  position: fixed;
+  left: 50px;
+  top: 550px;
+  z-index: 99;
+  font-size: 40px;
+  text-align: center;
+}
+
+#check-btn {
+  padding: 10px 25px;
+  background-color: purple;
+  font-size: 20px;
+  font-weight: bold;
+  position: fixed;
+  top: 655px;
+  left: 68px;
+}
+
+#result-check {
+  color: white;
+  width: 200px;
+  position: fixed;
+  top: 510px;
+  right: 75px;
+  font-size: 29px;
+}
+
+#scores {
+  color: white;
+  width: 200px;
+  position: fixed;
+  top: 580px;
+  right: 80px;
+  font-size: 29px;
+}
+
+#highscores {
+  color: white;
+  width: 200px;
+  position: fixed;
+  top: 625px;
+  right: 80px;
+  font-size: 29px;
+}
+
+#myImg {
+  position: fixed;
+  z-index: -100;
+  width: 2000px;
+  height: 400px;
+}
