@@ -123,9 +123,3 @@
   font-size: 29px;
 }
 
-#myImg {
-  position: fixed;
-  z-index: -100;
-  width: 2000px;
-  height: 400px;
-}
