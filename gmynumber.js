@@ -11,7 +11,7 @@ function myFunction() {
     document.querySelector('#title').textContent = 'YOU WIN!';
     document.querySelector('#result-check').textContent = 'Correct Number!';
     document.querySelector('#top-part').style.backgroundColor = 'green';
-    document.querySelector('#bottom-part').style.backgroundColor = 'purple';
+    document.querySelector('#bottom-part').style.backgroundColor = 'green';
     if (highScore <= y) {
       highScore = y;
       document.querySelector('#highscore').textContent = highScore;
