@@ -49,6 +49,9 @@ function resetFunction() {
   document.querySelector('#score').textContent = '20';
 }
 
+
+var input = document.getElementById('input-box');
+
 // this code allows the user to input a number via 'enter' key
 input.addEventListener('keypress', function (event) {
   // If the user presses the "Enter" key on the keyboard
