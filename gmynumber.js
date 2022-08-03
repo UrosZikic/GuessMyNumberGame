@@ -49,11 +49,4 @@ function resetFunction() {
   document.querySelector('#score').textContent = '20';
 }
 
-//this will print the paragraph content to the console.
-//console.log(document.querySelector('#result-check').textContent);
-//document.querySelector('#result-check').textContent = 'Correct Number!';
 
-// document.querySelector('#result-check').textContent;
-// document.querySelector('#score').textContent = 10;
-// document.querySelector('#input-box').value = 23;
-// console.log(document.querySelector('#input-box').value);
